@@ -72,12 +72,12 @@ conteiner.addEventListener("click", clickClick)
 function elements(arr) {
     return arr.map(element => `
 <li class="gallery-item">
-    <a class="gallery-link" href=${element.original}>
+    <a class="gallery-link" href="${element.original}">
         <img
         class="gallery-image"
-        src=${element.preview}
-        data-source=${element.original}
-        alt=${element.description}
+        src="${element.preview}"
+        data-source="${element.original}"
+        alt="${element.description}"
         />
     </a>
 </li>
